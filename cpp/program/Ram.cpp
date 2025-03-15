@@ -7,25 +7,25 @@ using namespace std;
 
 class Ram : public Komponen{
 private:
-    int kapasitorGB;
+    int kapasitasGB;
     string ddr;
 public:
     Ram(){}
 
-    Ram(int kapasitorGB, string ddr, string merk, string nama) : Komponen(merk, nama){
-        this->kapasitorGB = kapasitorGB;
+    Ram(int kapasitasGB, string ddr, string merk, string nama) : Komponen(merk, nama){
+        this->kapasitasGB = kapasitasGB;
         this->ddr = ddr;
     }
 
-    void setkapasitorGB(int kapasitorGB){
-        this->kapasitorGB = kapasitorGB;
+    void setkapasitasGB(int kapasitasGB){
+        this->kapasitasGB = kapasitasGB;
     }
     void setddr(string ddr){
         this->ddr = ddr;
     }
 
-    int getkapasitorGB(){
-        return this->kapasitorGB;
+    int getkapasitasGB(){
+        return this->kapasitasGB;
     }
     string getddr(){
         return this->ddr;

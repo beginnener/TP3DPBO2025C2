@@ -1,10 +1,12 @@
+#pragma once
 #include <iostream>
 #include <string>
+using namespace std;
 
 using namespace std;
 
 class Komponen {
-private:
+protected:
     string merk;
     string nama;
 
