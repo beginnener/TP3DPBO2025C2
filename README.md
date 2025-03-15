@@ -21,7 +21,7 @@ Terdapat 10 kelas objek pada proyek ini:
 OOP bertujuan untuk menciptakan kelas atau kode yang **_reusable_**, maka dari itu kelas GraphicProcessUnit dan GPU dipisah supaya apabila kedepannya ada kelas baru yang memerlukan atribut memoryGB dan clockspeedGHz kelas tersebut cukup melakukan inheritance dari kelas GraphicProcessUnit. Selain itu, hal ini juga dipisah supaya atribut unik yang hanya ada pada GPU tetap terpisah dari atribut lainnya untuk menetapkan karakteristik dari kelas GPU.
 
 Panah dari Gpu, Cpu, Ram, Harddrive, Keyboard, dan Printer menunjukkan **composite** dengan makna yang berbeda beda, 
-- Panah Gpu, Printer, dan Keyboard memiliki tanda [1 -> 0..1] ini menunjukan bahwa terdapat 0 sampai maksimal 1 isi dari atribut komputer yg berhubungan dgn kelas-kelas ini;
+- Panah Gpu, Printer, dan Keyboard memiliki tanda [1 --> 0..1] ini menunjukan bahwa terdapat 0 sampai maksimal 1 isi dari atribut komputer yg berhubungan dgn kelas-kelas ini;
 - Panah Cpu dan Harddrive [1 -> 1..1] menunjukkan bahwa terdapat minimal 1 dan maksimal 1 isi dari atribut komputer yang berhubungan dengan kelas-kelas tsb;
 - Panah Ram [1 -> 1..*] menunjukan bahwa terdapat minimal 1 sampai tak hingga/sesuai masukan user isi dari atribut komputer yang berhubungan dengan kelas tsb. 
 
