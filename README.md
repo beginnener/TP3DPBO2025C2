@@ -2,7 +2,7 @@ _saya Natasha Adinda Cantika dengan NIM 2312120 mengerjakan TP3 dalam mata kulia
 
 ## DIAGRAM
 <p align="center">
-    <img src="">
+    <img src="TP3DPBO.drawio.png">
 </p>
 
 ## Penjelasan Alur dan Screenshot Output
