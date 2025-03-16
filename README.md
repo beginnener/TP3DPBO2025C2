@@ -27,4 +27,11 @@ Panah dari Gpu, Cpu, Ram, Harddrive, Keyboard, dan Printer menunjukkan **composi
 
 ## Sreenshot output
 ### CPP
+<p align="center">
+    <img src="cpp\screenshot\Screenshot 2025-03-16 022833.png">
+</p>
+
 ### Python
+<p align="center">
+    <img src="python/screenshot/Screenshot 2025-03-16 101428.png">
+</p>
