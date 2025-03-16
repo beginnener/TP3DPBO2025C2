@@ -1,4 +1,4 @@
-import Komponen
+from Komponen import Komponen
 
 class Harddrive(Komponen):
     def __init__(self, kapasitas_gb=0, tipe_drive='', merk='', nama=''):

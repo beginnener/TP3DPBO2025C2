@@ -1,4 +1,4 @@
-import Komponen
+from Komponen import Komponen
 
 class Cpu(Komponen):
     def __init__(self, jumlah_core=0, kecepatan_ghz=0.0, merk='', nama=''):
